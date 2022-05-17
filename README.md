@@ -1,14 +1,18 @@
-// CREATE PROJECT
+**CREATE PROJECT
 npm init -y
 ** INSTALL JEST
 npm i --D jest
-// TEST  DRIVEN DEVELOPMENT - testear antes de generar el codigo y factorizar 
+**TEST  DRIVEN DEVELOPMENT - testear antes de generar el codigo y factorizar 
 npm run test:watch
-// RUN
+**RUN
 node fizzbuzz
-// init git
+**init git
 git init
-// add remote
+** add remote
 λ git remote add origin https://github.com/al3xa96/fizzbuzz.git
-// create gitignore
+** create gitignore
 touch .gitignore 
+** commit and push
+git add --all
+git commit -m 'message'
+git push --set-upstream origin master
